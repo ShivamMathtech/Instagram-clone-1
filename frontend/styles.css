@@ -1,0 +1,48 @@
+.main-page {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.login-form {
+  height: 70vh;
+  width: 65vh;
+  border: 0.5px solid black;
+  margin: 10px auto;
+}
+.forget-pswd {
+  height: 10vh;
+  width: 65vh;
+  border: 0.5px solid black;
+  margin: 10px auto;
+  line-height: 10vh;
+}
+.signup-form {
+  height: 95vh;
+  width: 65vh;
+  border: 0.5px solid black;
+  margin: 10px auto;
+}
+a {
+  text-decoration: none;
+}
+input[type="email"] {
+  background-color: #fafafa;
+  border-radius: 2px;
+}
+input[type="password"] {
+  background-color: #fafafa;
+}
+input[type="email"]:focus {
+  box-shadow: none;
+}
+input[type="password"]:focus {
+  box-shadow: none;
+}
+@font-face {
+  font-family: mylogo;
+  src: url("fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf");
+}
+.logo {
+  font-family: mylogo;
+  font-weight: 700;
+  font-size: 2.5em;
+}
