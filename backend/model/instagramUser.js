@@ -15,7 +15,7 @@ let UserSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    userName: {
+    username: {
       type: String,
       required: true,
       unique: true,
@@ -26,6 +26,5 @@ let UserSchema = mongoose.Schema(
   }
 );
 // Define the schema
-const user = mongoose.model("user", UserSchema);
-
-module.exports = user;
+const Instagramdb = mongoose.model("Instagramdb", UserSchema);
+module.exports = Instagramdb;

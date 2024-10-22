@@ -21,3 +21,21 @@ loginbtn.addEventListener("submit", (e) => {
       console.error("Error:", error);
     });
 });
+
+let fbtn = document.getElementById("fbtn");
+fbtn.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  fetch("http://localhost:4000/auth/forgetPassword", {
+    method: "POST",
+    body: JSON.stringify({ email, password }), // Convert the data to JSON format
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => console.log("fogot password"))
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+});
