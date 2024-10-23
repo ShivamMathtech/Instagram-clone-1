@@ -59,3 +59,53 @@ input[type="password"]:focus {
   border-radius: 100px;
   border: 2px solid black;
 }
+.sidebar {
+  height: 100vh;
+  border-right: 1px solid black;
+}
+.contentbar {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.nav-link {
+  color: black;
+}
+.fa-solid {
+  padding: 4px;
+}
+.nav-item {
+  margin: 4px;
+}
+.nav-link:hover {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.list-group-item {
+  border: none;
+  margin: 4px;
+}
+.user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #f1f1f1;
+}
