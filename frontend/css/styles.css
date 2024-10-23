@@ -46,3 +46,16 @@ input[type="password"]:focus {
   font-weight: 700;
   font-size: 2.5em;
 }
+.password-forgot {
+  height: 100vh;
+  width: 70vh;
+  border: 1px solid black;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 2px solid black;
+}
