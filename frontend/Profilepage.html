@@ -21,6 +21,112 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .profile-section {
+        height: 100vh;
+
+        overflow-y: scroll;
+      }
+      .user-profile {
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        background-color: #5e5c5cec;
+      }
+      .insights {
+        height: 70px;
+        width: 70px;
+        border-radius: 70px;
+        background-color: #e3dfdfec;
+        border: 1px solid black;
+      }
+      .bor-3 {
+        border-top: 1px solid black;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <section class="constainer profile-section p-0">
+      <div class="row m-0 p-4">
+        <div class="col-md-3">
+          <div
+            class="user-profile d-flex justify-content-center align-items-center"
+          >
+            <i class="fa-solid fa-camera fa-3x text-white btn"></i>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <ul class="nav p-4">
+              <li class="nav-item">
+                <a href="" class="nav-link text-dark align-self-center"
+                  ><h6>drshivam492022</h6></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <button class="btn btn-light">Edit Profile</button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <button class="btn btn-light">View archive</button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"
+                  ><i class="fa-solid fa-gear text-dark fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="row m-0">
+            <div class="col-md-12">
+              <span class="m-4">0 Posts</span>
+              <span class="m-4">18 Follower</span>
+              <span class="m-4">0 Following</span>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-md-12">
+              <p class="m-4">Bio data</p>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-md-12">
+              <div
+                class="insights d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-add fa-2x text-white btn"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0 p-4">
+        <div class="col-md-12 d-flex justify-content-center p-0 bor-3">
+          <ul class="nav p-0">
+            <li class="nav-item">
+              <a href="" class="nav-link text-dark">
+                <i class="fa-solid fa-table-cells"></i>
+                POSTS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-dark">
+                <i class="fa-regular fa-bookmark"></i>
+                SAVED</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-dark">
+                <i class="fa-solid fa-user"></i>
+                TAGGED</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
