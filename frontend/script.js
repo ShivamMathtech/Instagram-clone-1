@@ -16,7 +16,9 @@ loginbtn.addEventListener("submit", (e) => {
     }
   )
     .then((response) => response.json())
-    .then((data) => console.log("logged in successfully"))
+    .then((data) => {
+      console.log(data);
+    })
     .catch((error) => {
       console.error("Error:", error);
     });
